@@ -1,0 +1,47 @@
+.nav-links {
+  justify-self: center;
+}
+
+.logo {
+  font-size: 22px;
+  font-weight: bold;
+}
+
+.nav-links {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+  font-size: 16px;
+}
+
+.nav-links li {
+  cursor: pointer;
+}
+
+.right-icons {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.resume-btn {
+  background: white;
+  color: #6a00ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+  text-decoration: none;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  gap: 6px;
+}
+
+.right-icons {
+  justify-self: end;
+}
+.resume-btn i {
+  color: #6a00ff;
+}
+.dark .resume-btn i {
+  color: white;
+}
